@@ -13,6 +13,8 @@
 		182344EF22B0120F00A90FEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182344EE22B0120F00A90FEA /* Assets.xcassets */; };
 		182344F222B0120F00A90FEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182344F022B0120F00A90FEA /* LaunchScreen.storyboard */; };
 		182344FB22B0136900A90FEA /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182344FA22B0136900A90FEA /* SwiftyJSON.framework */; };
+		182344FF22B01C4500A90FEA /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 182344FD22B01C4500A90FEA /* Cartfile */; };
+		1823450022B01C4500A90FEA /* Cartfile.resolved in Resources */ = {isa = PBXBuildFile; fileRef = 182344FE22B01C4500A90FEA /* Cartfile.resolved */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		182344F122B0120F00A90FEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		182344F322B0120F00A90FEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		182344FA22B0136900A90FEA /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		182344FD22B01C4500A90FEA /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		182344FE22B01C4500A90FEA /* Cartfile.resolved */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile.resolved; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,8 @@
 			isa = PBXGroup;
 			children = (
 				182344E322B0120A00A90FEA /* CarthageDemo */,
+				182344FD22B01C4500A90FEA /* Cartfile */,
+				182344FE22B01C4500A90FEA /* Cartfile.resolved */,
 				182344E222B0120A00A90FEA /* Products */,
 				182344F922B0136800A90FEA /* Frameworks */,
 			);
@@ -137,6 +143,8 @@
 			files = (
 				182344F222B0120F00A90FEA /* LaunchScreen.storyboard in Resources */,
 				182344EF22B0120F00A90FEA /* Assets.xcassets in Resources */,
+				182344FF22B01C4500A90FEA /* Cartfile in Resources */,
+				1823450022B01C4500A90FEA /* Cartfile.resolved in Resources */,
 				182344EA22B0120A00A90FEA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
